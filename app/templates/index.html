@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Portal</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <header>
+        <h1>Employee Portal</h1>
+        <p>Employee Management Dashboard</p>
+    </header>
+
+    <main>
+
+        <section class="cards">
+
+            <div class="card">
+                <h2>35</h2>
+                <p>Total Employees</p>
+            </div>
+
+            <div class="card">
+                <h2>32</h2>
+                <p>Active Employees</p>
+            </div>
+
+            <div class="card">
+                <h2>6</h2>
+                <p>Departments</p>
+            </div>
+
+        </section>
+
+        <section class="employees">
+
+            <h2>Recent Employees</h2>
+
+            <table>
+
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Department</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                    <tr>
+                        <td>001</td>
+                        <td>Employee 1</td>
+                        <td>IT</td>
+                        <td>Active</td>
+                    </tr>
+
+                    <tr>
+                        <td>002</td>
+                        <td>Employee 2</td>
+                        <td>HR</td>
+                        <td>Active</td>
+                    </tr>
+
+                    <tr>
+                        <td>003</td>
+                        <td>Employee 3</td>
+                        <td>Finance</td>
+                        <td>Active</td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </section>
+
+    </main>
+
+</body>
+
+
+</html>
