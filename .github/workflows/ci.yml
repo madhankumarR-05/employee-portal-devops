@@ -3,8 +3,6 @@ name: Employee Portal CI
 on:
   push:
     branches:
-      - main
-      - feature/add-automated-tests
 
   pull_request:
     branches:
